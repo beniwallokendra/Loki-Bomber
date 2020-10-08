@@ -649,8 +649,8 @@ def getapi(pn,lim,cc):
 
         data = {
           'email': cc+pn,
-          'firstname': 'Loki',
-          'lastname': 'loki'
+          'firstname': 'speedx',
+          'lastname': 'speedx'
         }
 
         response = requests.post('https://www.aala.com/accustomer/ajax/getOTP', headers=headers, cookies=cookies, json=data)
