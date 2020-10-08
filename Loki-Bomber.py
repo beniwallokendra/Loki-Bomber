@@ -293,7 +293,7 @@ def checkinternet():
         res = True
     if res:
         print("\n\n\tIt seems That Your Internet Speed is Slow or You Are Using Proxies...")
-        print('\t\tTBomb Will Stop Now...\n\n')
+        print('\t\tLoki-Bomber Will Stop Now...\n\n')
         banner()
         exit()
 
@@ -712,7 +712,7 @@ def start(target, counter, delay, ch, cc):
             api = random.choice(ch)
         except Exception:
             if cc == "91":
-                print('Sorry All APIs Have Expired Please Update TBomb')
+                print('Sorry All APIs Have Expired Please Update Loki-Bomber')
                 input('Press Enter To Exit...')
                 exit()
             else:
@@ -773,7 +773,7 @@ def update():
         print('\n\t\tUpdated Successfull !!!!')
         print('\tPlease Run The Script Again...')
     else:
-        print("Please reclone TBomb Again")
+        print("Please reclone Loki-Bomber Again")
     sys.exit()
 
 
@@ -897,7 +897,7 @@ if cbomb:
 if nm == 0:
     nt = int(input("\tNumber Of Threads(10 to 20) : "))
     if nt <= 0 or nt >= 30:
-        print('\tTBomb Shows Better Result in 10 to 25 Threads\n\t\tStill Continuing....')
+        print('\tLoki-Bomber Shows Better Result in 10 to 25 Threads\n\t\tStill Continuing....')
     print("\n\nPlease Remember That This Is in Experimental Stage And Is Incredibly Fast...")
     t = [None] * nt
     print(random.choice(colors))
