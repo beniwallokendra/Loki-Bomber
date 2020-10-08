@@ -1,3 +1,38 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@beniwallokendra 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+beniwallokendra
+/
+Loki-Bomber
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Loki-Bomber/Loki-Bomber.sh
+@beniwallokendra
+beniwallokendra Add files via upload
+Latest commit 3a1c906 36 minutes ago
+ History
+ 1 contributor
+122 lines (122 sloc)  3.34 KB
+  
 #!/bin/bash
 clear
 echo -e "\e[4;31m LOKI Productions !!! \e[0m"
@@ -58,16 +93,16 @@ clear
 apt install git -y
 echo -e "\e[1;34m Downloading Latest Files..."
 git clone https://github.com/beniwallokendra/Loki-Bomber
-if [[ -s TBomb/TBomb.sh ]];then
-cd TBomb
+if [[ -s Loki-Bomber/Loki-Bomber.sh ]];then
+cd Loki-Bomber
 cp -r -f * .. > temp
 cd ..
-rm -rf  TBomb >> temp
+rm -rf  Loki-Bomber >> temp
 rm update.loki >> temp
 rm temp
 chmod +x Loki-Bomber.sh
 fi
-echo -e "\e[1;32m TBomb Will Restart Now..."
+echo -e "\e[1;32m Loki-Bomber Will Restart Now..."
 echo -e "\e[1;32m All The Required Packages Will Be Installed..."
 echo -e "\e[1;34m Press Enter To Proceed To Restart..."
 read a6
@@ -106,7 +141,7 @@ clear
 elif [ $ch -eq 5 ];then
 clear
 echo -e "\e[1;31m"
-figlet TBomb
+figlet Loki-Bomber
 echo -e "\e[1;34m Created By lokendra beniwal \e[1;32m"
 toilet -f mono12 -F border lokendra beniwal
 echo -e "\e[1;34m For Any Queries Message Me!!!\e[0m"
@@ -120,3 +155,15 @@ read a3
 clear
 fi
 done
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
