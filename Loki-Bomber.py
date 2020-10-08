@@ -799,7 +799,7 @@ if ver != verl:
     print('\tStarting Update...')
     update()
 print("Your Version is Up-To-Date")
-print('\n\n\t\t\tStarting TBomb...\n\n')
+print('\n\n\t\t\tStarting Loki-Bomber...\n\n')
 try:
     noti = urllib.request.urlopen(
         "https://raw.githubusercontent.com/TheSpeedX/TBomb/master/.notify").read().decode('utf-8')
@@ -915,7 +915,7 @@ if nm == 0:
     print(W)
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
     os.system('rm *.xxx* > /dev/null 2>&1')
-    print("\n\nStarting Bomb....")
+    print("\n\nStarting Loki-Bomber....")
     for i in range(nt):
         t[i] = threading.Thread(target=infinite, args=(pn, dl, ch, maxlim,))
         t[i].daemon = True
